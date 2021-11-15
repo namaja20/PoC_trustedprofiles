@@ -11,12 +11,12 @@ variable "iam_trusted_profiles_name" {
 }
 variable "iam_trusted_profiles_account_id" {
   description = "The account ID of the trusted profile."
-  type        = string
+  type        = ""iam_trusted_profiles_account_id""
   default     = "account_id"
 }
 variable "iam_trusted_profiles_description" {
   description = "The optional description of the trusted profile. The 'description' property is only available if a description was provided during creation of trusted profile."
-  type        = string
+  type        = "iam_trusted_profiles_description"
   default     = "placeholder"
 }
 
