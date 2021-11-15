@@ -5,7 +5,7 @@ variable "ibmcloud_api_key" {
 
 // Resource arguments for iam_trusted_profiles
 variable "iam_trusted_profiles_name" {
-  description = "Prueba de trusted profile sobre una cuenta de PoC Interna de Nacho"
+  description = "Name of the trusted profile. The name is checked for uniqueness. Therefore trusted profiles with the same names can not exist in the same account."
   type        = string
   default     = "name"
 }
