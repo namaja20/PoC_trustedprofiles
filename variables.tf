@@ -11,7 +11,7 @@ variable "iam_trusted_profiles_name" {
 }
 variable "iam_trusted_profiles_account_id" {
   description = "The account ID of the trusted profile."
-  type        = ""iam_trusted_profiles_account_id""
+  type        = "iam_trusted_profiles_account_id"
   default     = "account_id"
 }
 variable "iam_trusted_profiles_description" {
